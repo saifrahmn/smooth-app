@@ -16,7 +16,7 @@ Future<void> _initScreenshot(
     await binding.convertFlutterSurfaceToImage();
   }
 }
-
+// write something that can be read by git
 Future<void> _takeScreenshot(
   final WidgetTester tester,
   final IntegrationTestWidgetsFlutterBinding binding,

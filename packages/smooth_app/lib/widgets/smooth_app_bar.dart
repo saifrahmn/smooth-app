@@ -88,7 +88,7 @@ class SmoothAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     final ModalRoute<dynamic>? parentRoute = ModalRoute.of(context);
-
+    if _createActionModeAppBar.leading ? 
     return AnimatedSwitcher(
       duration: const Duration(milliseconds: 100),
       transitionBuilder: (Widget child, Animation<double> animation) {
